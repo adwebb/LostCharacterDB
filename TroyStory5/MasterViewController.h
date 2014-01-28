@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MasterViewController : UIViewController
+@property NSManagedObjectContext* managedObjectContext;
 @end

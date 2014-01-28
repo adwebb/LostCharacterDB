@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C218FFF5189853A10041936E /* LostCharacterTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C218FFF4189853A10041936E /* LostCharacterTableCell.m */; };
+		C218FFF818986A140041936E /* sortDown.png in Resources */ = {isa = PBXBuildFile; fileRef = C218FFF618986A140041936E /* sortDown.png */; };
+		C218FFF918986A140041936E /* sortUp.png in Resources */ = {isa = PBXBuildFile; fileRef = C218FFF718986A140041936E /* sortUp.png */; };
 		C25381DC18981281007DBE36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25381DB18981281007DBE36 /* Foundation.framework */; };
 		C25381DE18981281007DBE36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25381DD18981281007DBE36 /* CoreGraphics.framework */; };
 		C25381E018981281007DBE36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25381DF18981281007DBE36 /* UIKit.framework */; };
@@ -14,13 +17,15 @@
 		C25381E818981281007DBE36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C25381E718981281007DBE36 /* main.m */; };
 		C25381EC18981281007DBE36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C25381EB18981281007DBE36 /* AppDelegate.m */; };
 		C25381EF18981281007DBE36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25381ED18981281007DBE36 /* Main.storyboard */; };
-		C25381F218981281007DBE36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C25381F118981281007DBE36 /* ViewController.m */; };
+		C25381F218981281007DBE36 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C25381F118981281007DBE36 /* MasterViewController.m */; };
 		C25381F418981281007DBE36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C25381F318981281007DBE36 /* Images.xcassets */; };
 		C25381FB18981281007DBE36 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25381FA18981281007DBE36 /* XCTest.framework */; };
 		C25381FC18981281007DBE36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25381DB18981281007DBE36 /* Foundation.framework */; };
 		C25381FD18981281007DBE36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25381DF18981281007DBE36 /* UIKit.framework */; };
 		C253820518981281007DBE36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C253820318981281007DBE36 /* InfoPlist.strings */; };
-		C253820718981281007DBE36 /* TroyStory5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C253820618981281007DBE36 /* TroyStory5Tests.m */; };
+		C253820718981281007DBE36 /* LostCharactersDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C253820618981281007DBE36 /* LostCharactersDBTests.m */; };
+		C2538212189813FC007DBE36 /* LostCharacterModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2538210189813FC007DBE36 /* LostCharacterModel.xcdatamodeld */; };
+		C2538215189828A4007DBE36 /* LostCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = C2538214189828A4007DBE36 /* LostCharacter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +39,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C25381D818981281007DBE36 /* TroyStory5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TroyStory5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C218FFF3189853A10041936E /* LostCharacterTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LostCharacterTableCell.h; sourceTree = "<group>"; };
+		C218FFF4189853A10041936E /* LostCharacterTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LostCharacterTableCell.m; sourceTree = "<group>"; };
+		C218FFF618986A140041936E /* sortDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sortDown.png; sourceTree = "<group>"; };
+		C218FFF718986A140041936E /* sortUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sortUp.png; sourceTree = "<group>"; };
+		C25381D818981281007DBE36 /* LostCharactersDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LostCharactersDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25381DB18981281007DBE36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C25381DD18981281007DBE36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C25381DF18981281007DBE36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C25381E318981281007DBE36 /* TroyStory5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TroyStory5-Info.plist"; sourceTree = "<group>"; };
+		C25381E318981281007DBE36 /* LostCharactersDB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LostCharactersDB-Info.plist"; sourceTree = "<group>"; };
 		C25381E518981281007DBE36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C25381E718981281007DBE36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C25381E918981281007DBE36 /* TroyStory5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TroyStory5-Prefix.pch"; sourceTree = "<group>"; };
+		C25381E918981281007DBE36 /* LostCharactersDB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LostCharactersDB-Prefix.pch"; sourceTree = "<group>"; };
 		C25381EA18981281007DBE36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C25381EB18981281007DBE36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C25381EE18981281007DBE36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C25381F018981281007DBE36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C25381F118981281007DBE36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C25381F018981281007DBE36 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		C25381F118981281007DBE36 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		C25381F318981281007DBE36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C25381F918981281007DBE36 /* TroyStory5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroyStory5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25381F918981281007DBE36 /* LostCharactersDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LostCharactersDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25381FA18981281007DBE36 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C253820218981281007DBE36 /* TroyStory5Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TroyStory5Tests-Info.plist"; sourceTree = "<group>"; };
+		C253820218981281007DBE36 /* LostCharactersDBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LostCharactersDBTests-Info.plist"; sourceTree = "<group>"; };
 		C253820418981281007DBE36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C253820618981281007DBE36 /* TroyStory5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TroyStory5Tests.m; sourceTree = "<group>"; };
+		C253820618981281007DBE36 /* LostCharactersDBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LostCharactersDBTests.m; sourceTree = "<group>"; };
+		C2538211189813FC007DBE36 /* LostCharacterModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LostCharacterModel.xcdatamodel; sourceTree = "<group>"; };
+		C2538213189828A4007DBE36 /* LostCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LostCharacter.h; sourceTree = "<group>"; };
+		C2538214189828A4007DBE36 /* LostCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LostCharacter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +94,8 @@
 		C25381CF18981281007DBE36 = {
 			isa = PBXGroup;
 			children = (
-				C25381E118981281007DBE36 /* TroyStory5 */,
-				C253820018981281007DBE36 /* TroyStory5Tests */,
+				C25381E118981281007DBE36 /* LostCharactersDB */,
+				C253820018981281007DBE36 /* LostCharactersDBTests */,
 				C25381DA18981281007DBE36 /* Frameworks */,
 				C25381D918981281007DBE36 /* Products */,
 			);
@@ -92,8 +104,8 @@
 		C25381D918981281007DBE36 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C25381D818981281007DBE36 /* TroyStory5.app */,
-				C25381F918981281007DBE36 /* TroyStory5Tests.xctest */,
+				C25381D818981281007DBE36 /* LostCharactersDB.app */,
+				C25381F918981281007DBE36 /* LostCharactersDBTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,44 +121,53 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C25381E118981281007DBE36 /* TroyStory5 */ = {
+		C25381E118981281007DBE36 /* LostCharactersDB */ = {
 			isa = PBXGroup;
 			children = (
 				C25381EA18981281007DBE36 /* AppDelegate.h */,
 				C25381EB18981281007DBE36 /* AppDelegate.m */,
 				C25381ED18981281007DBE36 /* Main.storyboard */,
-				C25381F018981281007DBE36 /* ViewController.h */,
-				C25381F118981281007DBE36 /* ViewController.m */,
+				C218FFF3189853A10041936E /* LostCharacterTableCell.h */,
+				C218FFF4189853A10041936E /* LostCharacterTableCell.m */,
+				C2538213189828A4007DBE36 /* LostCharacter.h */,
+				C2538214189828A4007DBE36 /* LostCharacter.m */,
+				C25381F018981281007DBE36 /* MasterViewController.h */,
+				C25381F118981281007DBE36 /* MasterViewController.m */,
+				C2538210189813FC007DBE36 /* LostCharacterModel.xcdatamodeld */,
 				C25381F318981281007DBE36 /* Images.xcassets */,
 				C25381E218981281007DBE36 /* Supporting Files */,
 			);
+			name = LostCharactersDB;
 			path = TroyStory5;
 			sourceTree = "<group>";
 		};
 		C25381E218981281007DBE36 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C25381E318981281007DBE36 /* TroyStory5-Info.plist */,
+				C218FFF618986A140041936E /* sortDown.png */,
+				C218FFF718986A140041936E /* sortUp.png */,
+				C25381E318981281007DBE36 /* LostCharactersDB-Info.plist */,
 				C25381E418981281007DBE36 /* InfoPlist.strings */,
 				C25381E718981281007DBE36 /* main.m */,
-				C25381E918981281007DBE36 /* TroyStory5-Prefix.pch */,
+				C25381E918981281007DBE36 /* LostCharactersDB-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C253820018981281007DBE36 /* TroyStory5Tests */ = {
+		C253820018981281007DBE36 /* LostCharactersDBTests */ = {
 			isa = PBXGroup;
 			children = (
-				C253820618981281007DBE36 /* TroyStory5Tests.m */,
+				C253820618981281007DBE36 /* LostCharactersDBTests.m */,
 				C253820118981281007DBE36 /* Supporting Files */,
 			);
+			name = LostCharactersDBTests;
 			path = TroyStory5Tests;
 			sourceTree = "<group>";
 		};
 		C253820118981281007DBE36 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C253820218981281007DBE36 /* TroyStory5Tests-Info.plist */,
+				C253820218981281007DBE36 /* LostCharactersDBTests-Info.plist */,
 				C253820318981281007DBE36 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +176,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C25381D718981281007DBE36 /* TroyStory5 */ = {
+		C25381D718981281007DBE36 /* LostCharactersDB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C253820A18981281007DBE36 /* Build configuration list for PBXNativeTarget "TroyStory5" */;
+			buildConfigurationList = C253820A18981281007DBE36 /* Build configuration list for PBXNativeTarget "LostCharactersDB" */;
 			buildPhases = (
 				C25381D418981281007DBE36 /* Sources */,
 				C25381D518981281007DBE36 /* Frameworks */,
@@ -167,14 +188,14 @@
 			);
 			dependencies = (
 			);
-			name = TroyStory5;
+			name = LostCharactersDB;
 			productName = TroyStory5;
-			productReference = C25381D818981281007DBE36 /* TroyStory5.app */;
+			productReference = C25381D818981281007DBE36 /* LostCharactersDB.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C25381F818981281007DBE36 /* TroyStory5Tests */ = {
+		C25381F818981281007DBE36 /* LostCharactersDBTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C253820D18981281007DBE36 /* Build configuration list for PBXNativeTarget "TroyStory5Tests" */;
+			buildConfigurationList = C253820D18981281007DBE36 /* Build configuration list for PBXNativeTarget "LostCharactersDBTests" */;
 			buildPhases = (
 				C25381F518981281007DBE36 /* Sources */,
 				C25381F618981281007DBE36 /* Frameworks */,
@@ -185,9 +206,9 @@
 			dependencies = (
 				C25381FF18981281007DBE36 /* PBXTargetDependency */,
 			);
-			name = TroyStory5Tests;
+			name = LostCharactersDBTests;
 			productName = TroyStory5Tests;
-			productReference = C25381F918981281007DBE36 /* TroyStory5Tests.xctest */;
+			productReference = C25381F918981281007DBE36 /* LostCharactersDBTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C25381D318981281007DBE36 /* Build configuration list for PBXProject "TroyStory5" */;
+			buildConfigurationList = C25381D318981281007DBE36 /* Build configuration list for PBXProject "LostCharactersDB" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +238,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C25381D718981281007DBE36 /* TroyStory5 */,
-				C25381F818981281007DBE36 /* TroyStory5Tests */,
+				C25381D718981281007DBE36 /* LostCharactersDB */,
+				C25381F818981281007DBE36 /* LostCharactersDBTests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,9 +249,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C218FFF918986A140041936E /* sortUp.png in Resources */,
 				C25381F418981281007DBE36 /* Images.xcassets in Resources */,
 				C25381E618981281007DBE36 /* InfoPlist.strings in Resources */,
 				C25381EF18981281007DBE36 /* Main.storyboard in Resources */,
+				C218FFF818986A140041936E /* sortDown.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C25381F218981281007DBE36 /* ViewController.m in Sources */,
+				C25381F218981281007DBE36 /* MasterViewController.m in Sources */,
+				C2538215189828A4007DBE36 /* LostCharacter.m in Sources */,
+				C218FFF5189853A10041936E /* LostCharacterTableCell.m in Sources */,
 				C25381EC18981281007DBE36 /* AppDelegate.m in Sources */,
 				C25381E818981281007DBE36 /* main.m in Sources */,
+				C2538212189813FC007DBE36 /* LostCharacterModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C253820718981281007DBE36 /* TroyStory5Tests.m in Sources */,
+				C253820718981281007DBE36 /* LostCharactersDBTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +294,7 @@
 /* Begin PBXTargetDependency section */
 		C25381FF18981281007DBE36 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C25381D718981281007DBE36 /* TroyStory5 */;
+			target = C25381D718981281007DBE36 /* LostCharactersDB */;
 			targetProxy = C25381FE18981281007DBE36 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -379,9 +405,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TroyStory5/TroyStory5-Prefix.pch";
-				INFOPLIST_FILE = "TroyStory5/TroyStory5-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TroyStory5/LostCharactersDB-Prefix.pch";
+				INFOPLIST_FILE = "TroyStory5/LostCharactersDB-Info.plist";
+				PRODUCT_NAME = LostCharactersDB;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,9 +418,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TroyStory5/TroyStory5-Prefix.pch";
-				INFOPLIST_FILE = "TroyStory5/TroyStory5-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TroyStory5/LostCharactersDB-Prefix.pch";
+				INFOPLIST_FILE = "TroyStory5/LostCharactersDB-Info.plist";
+				PRODUCT_NAME = LostCharactersDB;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -415,8 +441,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TroyStory5Tests/TroyStory5Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TroyStory5Tests/LostCharactersDBTests-Info.plist";
+				PRODUCT_NAME = LostCharactersDBTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -434,8 +460,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TroyStory5/TroyStory5-Prefix.pch";
-				INFOPLIST_FILE = "TroyStory5Tests/TroyStory5Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TroyStory5Tests/LostCharactersDBTests-Info.plist";
+				PRODUCT_NAME = LostCharactersDBTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -444,7 +470,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C25381D318981281007DBE36 /* Build configuration list for PBXProject "TroyStory5" */ = {
+		C25381D318981281007DBE36 /* Build configuration list for PBXProject "LostCharactersDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C253820818981281007DBE36 /* Debug */,
@@ -453,23 +479,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C253820A18981281007DBE36 /* Build configuration list for PBXNativeTarget "TroyStory5" */ = {
+		C253820A18981281007DBE36 /* Build configuration list for PBXNativeTarget "LostCharactersDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C253820B18981281007DBE36 /* Debug */,
 				C253820C18981281007DBE36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		C253820D18981281007DBE36 /* Build configuration list for PBXNativeTarget "TroyStory5Tests" */ = {
+		C253820D18981281007DBE36 /* Build configuration list for PBXNativeTarget "LostCharactersDBTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C253820E18981281007DBE36 /* Debug */,
 				C253820F18981281007DBE36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C2538210189813FC007DBE36 /* LostCharacterModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2538211189813FC007DBE36 /* LostCharacterModel.xcdatamodel */,
+			);
+			currentVersion = C2538211189813FC007DBE36 /* LostCharacterModel.xcdatamodel */;
+			path = LostCharacterModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C25381D018981281007DBE36 /* Project object */;
 }

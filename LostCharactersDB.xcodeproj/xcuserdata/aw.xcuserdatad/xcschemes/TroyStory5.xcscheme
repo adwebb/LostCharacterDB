@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C25381D718981281007DBE36"
                BuildableName = "TroyStory5.app"
-               BlueprintName = "TroyStory5"
-               ReferencedContainer = "container:TroyStory5.xcodeproj">
+               BlueprintName = "LostCharactersDB"
+               ReferencedContainer = "container:LostCharactersDB.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C25381F818981281007DBE36"
                BuildableName = "TroyStory5Tests.xctest"
-               BlueprintName = "TroyStory5Tests"
-               ReferencedContainer = "container:TroyStory5.xcodeproj">
+               BlueprintName = "LostCharactersDBTests"
+               ReferencedContainer = "container:LostCharactersDB.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C25381D718981281007DBE36"
             BuildableName = "TroyStory5.app"
-            BlueprintName = "TroyStory5"
-            ReferencedContainer = "container:TroyStory5.xcodeproj">
+            BlueprintName = "LostCharactersDB"
+            ReferencedContainer = "container:LostCharactersDB.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C25381D718981281007DBE36"
             BuildableName = "TroyStory5.app"
-            BlueprintName = "TroyStory5"
-            ReferencedContainer = "container:TroyStory5.xcodeproj">
+            BlueprintName = "LostCharactersDB"
+            ReferencedContainer = "container:LostCharactersDB.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C25381D718981281007DBE36"
             BuildableName = "TroyStory5.app"
-            BlueprintName = "TroyStory5"
-            ReferencedContainer = "container:TroyStory5.xcodeproj">
+            BlueprintName = "LostCharactersDB"
+            ReferencedContainer = "container:LostCharactersDB.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

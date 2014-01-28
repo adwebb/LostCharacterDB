@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface TroyStory5Tests : XCTestCase
+@interface LostCharactersDBTests : XCTestCase
 
 @end
 
-@implementation TroyStory5Tests
+@implementation LostCharactersDBTests
 
 - (void)setUp
 {
